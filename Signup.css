@@ -1,0 +1,126 @@
+*
+{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body 
+{
+    background: rgba(0, 0, 0, 0.527);
+}
+.container
+{
+    height:550px;
+    width:40%;
+    background-color: rgb(51,47,47);
+    border-radius: 5px;
+    position: absolute;
+    top:15%;
+    left:28%;
+}
+img
+{
+    height:130px;
+    width:25%;
+    position: relative;
+    left:37%;
+    top:2.5%;
+}
+h3
+{
+    color: white;
+    text-align: center;
+    position: relative;
+    top:3%;
+    font-size: larger;
+}
+form
+{
+    text-align: center;
+    position: relative;
+    top:10%;
+}
+form input
+{
+    background: white;
+    height:40px;
+    width:90%;
+    border-radius: 5px;
+    margin-bottom:15px;
+    border: 2px solid blue;
+}
+input :focus
+{
+    margin-left:10px;
+    color:black;
+}
+input:focus::placeholder
+{
+    font-weight: 200;
+    color:black;
+}
+button {
+    background: black;
+    color: white;
+    height: 40px;
+    width: 90%;
+    cursor: pointer;
+    margin-top: 5%;
+    box-shadow: 3px 3px 2px gray;
+}
+@media (width:820px)
+
+/*i-pad air*/
+    {
+    .container {
+        width: 70%;
+        position: absolute;
+        top: 25%;
+        left: 14%;
+    }
+
+    #forgot {
+        position: relative;
+        left: 35%;
+        top: 35%;
+    }
+
+    p {
+        color: white;
+        position: relative;
+        left: 33%;
+        top: 55%;
+    }
+}
+
+@media (max-width:650px) 
+{
+    .container 
+    {
+        width: fit-content;
+        position: absolute;
+        top: 15%;
+        left: 5%;
+        right: 5%;
+    }
+
+    #forgot {
+        position: relative;
+        left: 25%;
+        top: 35%;
+    }
+
+    #signup {
+        position: relative;
+        left: 43%;
+        top: 55%;
+    }
+}
+@media (width:768px) {
+    .container {
+        width: 60%;
+        position: absolute;
+        left: 20%;
+    }
+}
